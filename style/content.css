@@ -1,0 +1,134 @@
+#gridbox {
+    /* border: 1px solid blue; */
+    height: 2200px;
+    width: 1440px;
+    padding: 5px 20px;
+
+    position: relative;
+    top: -348px;
+
+
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px;
+    grid-template-rows: repeat(5, 420px);
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    grid-auto-flow: row;
+
+}
+
+#gridbox>.items {
+    width: 330px;
+    height: 420px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    align-content: center;
+    /* padding: 0 4%; */
+
+}
+
+#gridbox>.items>h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+#gridbox>.items>img {
+    width: 300px;
+    height: 300px;
+    /* margin: 0 4%; */
+
+}
+
+#gridbox>.items>a {
+    text-decoration: none;
+    color: #22445bdd;
+    font-size: 14px;
+}
+
+#gridbox>.items>.deals {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-between;
+
+}
+
+#gridbox>.items>.deals>img {
+    width: 45%;
+    height: 35%;
+
+}
+
+#gridbox>.items>.deals>span {
+    margin-bottom: 10px;
+}
+
+/* login box */
+/* end of content  */
+#loginbox {
+    /* border: 1px solid black; */
+    height: 166px;
+    width: 1440px;
+    margin-top: 10px;
+    position: relative;
+    top: -348px;
+    background-color: #fff;
+
+
+    display: flex;
+    align-items: end;
+}
+
+#loginbox>.letterbox {
+    border: 1px solid rgba(183, 173, 173, 0.807);
+    border-radius: 4px;
+    width: 1437px;
+    height: 136px;
+    margin: 0 0 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#loginbox>.letterbox>span {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#loginbox>.letterbox>a {
+    width: 230px;
+    height: 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    background-color: #ffe093;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#loginbox>.letterbox>div {
+    margin-top: 5px;
+    font-size: 13px;
+
+}
+
+/* #loginbox>.letterbox>div>span {} */
+
+#loginbox>.letterbox>div>a {
+    text-decoration: none;
+    color: #007185;
+}

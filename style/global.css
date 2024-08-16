@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    display: grid;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#world {
+    background-color: rgb(227, 230, 230);
+    /* height: 3800px; */
+    /* overflow: ; */
+}
